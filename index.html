@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>L06HandsOn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav id="wookie">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#">About Cheese</a>
+            </li>
+            <li>
+                <a href="#">Why Cheese?</a>
+            </li>
+            <li>
+                <a href="#">How Make Cheese?</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                    Our Cheeses
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">Swiss</a>
+                    </li>
+                    <li>
+                        <a href="#">Cheddar</a>
+                    </li>
+                    <li>
+                        <a href="#">Parmesian</a>
+                    </li>
+                    <li>
+                        <a href="#">Blue</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav navbar-nav navbar-right">
+                <a href="#">
+                    <span class="glyphicon glyphicon-search"></span> search
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="col-xs-6">
+        <form id="haha" class="form-horizontal">
+            <div class="form-group">
+                <label for="FirstName" class="control-label col-xs-2">First Name:</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="FirstName" placeholder="First Name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="LastName" class="control-label col-xs-2">Last Name:</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="LastName" placeholder="Last Name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" class="control-label col-xs-2">Email:</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="Email" placeholder="Email" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber" class="control-label col-xs-2">Phone Number:</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="PhoneNumber" placeholder="Phone Number" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <button id="hoopla" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="table_container" class="col-xs-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Cheese</th>
+                    <th>Quantity (Ounces)</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Swiss</td>
+                    <td>10 oz</td>
+                    <td>$15.99</td>
+                </tr>
+                <tr>
+                    <td>Cheddar</td>
+                    <td>15 oz</td>
+                    <td>$9.99</td>
+                </tr>
+                <tr>
+                    <td>Parmesian</td>
+                    <td>4 oz</td>
+                    <td>$21.99</td>
+                </tr>
+                <tr>
+                    <td>Blue</td>
+                    <td>9 oz</td>
+                    <td>$12.99</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br/>
+    <br/>
+    <div class="col-xs-12">
+        <button type="button" class="btn btn-success col-xs-4">Order!</button>
+        <button type="button" class="btn btn-warning col-xs-4">More Cheeses!</button>
+        <button type="button" class="btn btn-Inf col-xs-4">About us!</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

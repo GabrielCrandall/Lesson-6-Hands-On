@@ -1,0 +1,38 @@
+﻿body {
+    font: bold 14px Times;
+    background-color: gold;
+}
+
+form {
+    width: auto;
+    margin: 10px 5px 10px 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.form-group,
+#hoopla {
+    margin: 5px;
+}
+
+#table_container {
+    float: right;
+    width: 45%;
+    margin: 10px 15px 10px 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: khaki;
+}
+
+tr:hover {
+    background-color: saddlebrown;
+    color: papayawhip;
+}
+
+#haha{
+    background-color: khaki;
+}
+
+#wookie{
+    background-color: black;
+}
